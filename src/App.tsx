@@ -32,7 +32,7 @@ function App() {
         <FormTask onAddTask={addTask} />
       </div>
       <>
-        <Tasks tasks={tasks} />
+        <Tasks tasks={tasks} setTasks={setTasks} />
       </>
     </>
   );
